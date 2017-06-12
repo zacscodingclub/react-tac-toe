@@ -2,7 +2,7 @@ import React from 'react';
 import Cell from './Cell';
 
 const Board = ({cells, turn}) => (
-  <div>
+  <div className="Board">
     {cells.map((value, i) =>
       <Cell key={i} value={value} />
     )}
