@@ -28,6 +28,14 @@ class Game extends Component {
     });
   }
 
+  cellTaken(cellNumber) {
+
+  }
+
+  gameWon() {
+
+  }
+
   currentPlayer() {
     const openSpaces = this.state.cells.filter( c => c === " ").length;
     return openSpaces % 2 === 0 ? "O" : "X";
